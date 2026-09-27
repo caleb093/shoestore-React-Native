@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Shoe Store",
+    "slug": "shoe-store",
+    "description": "This is an E-commerce application for shoes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sneakers.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f28022"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.caleb112.shoestore"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56bc8329-d6e9-4deb-9abc-72b8f5f271cb"
+      }
+    },
+    "owner": "caleb112"
+  }
+}
